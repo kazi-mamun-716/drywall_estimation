@@ -1,6 +1,6 @@
 import React from 'react'
 import { FileText } from 'lucide-react';
-import Drywall_Takeoff from '../assets/drywall_Takeoff.png';
+import Drywall_Takeoff from '../assets/drywall_takeoff.png';
 import Drywall_Cost_Estimate from '../assets/drywall_takeoff_cost_estimation.png';
 // Swiper Imports for Carousel
 import { Swiper, SwiperSlide } from 'swiper/react';
@@ -68,5 +68,6 @@ const Projects = () => {
     </section>
   )
 }
+
 
 export default Projects
