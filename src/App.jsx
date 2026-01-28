@@ -7,6 +7,7 @@ import Projects from './Components/Projects';
   import { toast, ToastContainer } from 'react-toastify';
 import Contact from './Components/Contact';
 import Footer from './Components/Footer';
+import About from './Components/About';
 
 const App = () => {
   const form = useRef();
@@ -27,17 +28,7 @@ const App = () => {
       <Hero/>
 
       {/* About Section */}
-      <section id="about" className="py-20 bg-white px-6">
-        <div className="max-w-4xl mx-auto text-center">
-          <h3 className="text-3xl font-bold mb-8">Professional Summary</h3>
-          <p className="text-lg leading-relaxed text-slate-600">
-            Mechanical Engineering graduate from Sonargaon University. 
-            Working in the field since 2014, I bridge the gap between engineering discipline and 
-            detailed drywall quantity takeoffs. I specialize in interpreting complex blueprints 
-            and preparing accurate BOQs.
-          </p>
-        </div>
-      </section>
+      <About />
 
       {/* Skills Section */}
       <section id="skills" className="py-20 px-6">
